@@ -15,7 +15,11 @@
   text-align: center;
 
   .details-container {
-    border: 0.7px solid #dededeac;
+    border: { 
+      bottom: 1px solid #dededeac;
+      left: 0.4px solid #dededeac;
+      right: 0.4px solid #dededeac
+    };
     margin-top: -5px;
     height: 150px;
     padding-bottom: 10px;
